@@ -76,22 +76,22 @@ Use
  - TjMonthlyNewSongCollector
   - You can get new monthly release songs' lists through this class ::
 
-   TjMonthlyNewSongCollector tjMonthlyNewSongCollector = new TjMonthlyNewSongCollector();
-   String json = tjMonthlyNewSongCollector.execute();
+         TjMonthlyNewSongCollector tjMonthlyNewSongCollector = new TjMonthlyNewSongCollector();
+         String json = tjMonthlyNewSongCollector.execute();
 
   - The result is like ::
 
-   [{"number" : 97673, "title" : "기적같은이야기", "singer" : "에이핑크", "lyricist" : "박초롱,BEOM X NANG 3,LOOGONE,김지혜,BEOM X NANG 1", "songWriter" : "정은지,BEOM X NANG 3,LOOGONE,김지혜,BEOM X NANG 1"}, ...]
+         [{"number" : 97673, "title" : "기적같은이야기", "singer" : "에이핑크", "lyricist" : "박초롱,BEOM X NANG 3,LOOGONE,김지혜,BEOM X NANG 1", "songWriter" : "정은지,BEOM X NANG 3,LOOGONE,김지혜,BEOM X NANG 1"}, ...]
 
  - TjMonthlyPopularSongCollector
   - You can get monthly most shouted songs' lists through this class ::
 
-   TjMonthlyPopularSongCollector tjMonthlyPopularSongCollector = new TjMonthlyPopularSongCollector();
-   String json = tjMonthlyPopularSongCollector.execute();
+         TjMonthlyPopularSongCollector tjMonthlyPopularSongCollector = new TjMonthlyPopularSongCollector();
+         String json = tjMonthlyPopularSongCollector.execute();
 
   - The result is like ::
 
-   [{"rank": 1, "number" : 97017, "title" : "그날처럼", "singer" : "장덕철"}, ...]
+         [{"rank": 1, "number" : 97017, "title" : "그날처럼", "singer" : "장덕철"}, ...]
 
  - TjSongFinder
   - You can search TJ media songs through this class.
