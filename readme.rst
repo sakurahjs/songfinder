@@ -1,6 +1,8 @@
 Korean Karaoke Song Finder
 ==========================
 
+English
+
 Korean Karaoke Song Finder is a library that finds song information from Major Karaoke web sites.
 There are two major Karaoke companies in Korea, Keum-young and TJ media.
 
@@ -8,15 +10,52 @@ So, Korean Karaoke Song Finder parses `Keum-young`_ and `TJ media`_ web sites ju
 The results of this library are JSON type string.
 
 This library depends on `Keum-young`_ and `TJ media`_ web sites' structure.
-If those web sites be renewed, this library must be modified.
+If those web sites are renewed, in case, this library must be modified.
 `Keum-young`_ web site's response time is quite late, so be careful when using KySongFinder.
 
 This library's dependency is `jsoup`_ library because it sends http requests and receives http responses via `jsoup`_.
 You have to set up `jsoup`_ library in your project before using this library.
 
+
+日本語
+
+Korean Karaoke Song Finderは、韓国のカラオケの歌の情報をカラオケメーカーのウェブサイトから検索します。
+韓国にはクムヨンとテジンという二つの大きいカラオケメーカーがあります。
+
+このライブラリーは、`クムヨン`_と`テジン`_のウェブサイトをパースし、実際に検索を行うように動作します。
+そして、結果はJSON文字列で返します。
+
+クムヨンとテジンのウェブサイトの構造に依存するので、もしもこれらのサイトがリニュアルされた場合、
+このライブラリーのコードも場合によっては修正しなければなりません。
+また、クムヨンのサイトのレスポンスタイムがかなりかかるのでKySongFinderを使う場合には注意が必要かなと思います。
+
+このライブラリーは `jsoup`_ を使ってhttpのやりとりをするので、 `jsoup`_ ライブラリーに依存的です。
+プロジェクトに用いる前に `jsoup`_ ライブラリーをビルドパスに追加してください。
+
+
+한국어
+
+Korean Karaoke Song Finder는 노래방 곡 정보를 금영과 태진 웹사이트에서 검색합니다.
+
+금영과 태진 웹사이트를 파싱하여 실제로 웹을 이용하여 검색하는 것 처럼 동작하고,
+결과는 JSON 문자열로 돌려줍니다.
+
+금영과 태진 웹사이트 구조에 의존하기 때문에 만약 해당 웹사이트가 리뉴얼 된다면 상황에 따라서는 코드 수정이 불가피합니다.
+금영 웹사이트의 응답시간이 꽤 오래걸리기 때문에 KySongFinder를 사용할 때는 주의가 필요합니다.
+
+이 라이브러리는 `jsoup`_ 라이브러리를 이용하여 http 통신을 하기 때문에, `jsoup`_ 에 의존적입니다.
+프로젝트에 사용하기 전에 `jsoup`_ 를 빌드패스에 추가하세요.
+
+
 .. _Keum-young: http://www.ikaraoke.kr/isong/search_song.asp
 .. _TJ media: http://www.tjmedia.com
 .. _jsoup: https://jsoup.org
+
+.. _クムヨン: http://www.ikaraoke.kr/isong/search_song.asp
+.. _テジン: http://www.tjmedia.com
+
+.. _금영: http://www.ikaraoke.kr/isong/search_song.asp
+.. _태진: http://www.tjmedia.com
 
 Install
 -------
@@ -24,7 +63,7 @@ Install
 1) Download jsoup library and add it to your project build path.
 2) Download `korean-karaoke-song-finder-0.0.1.jar`_ and add it to your project build path.
 
-.. _korean-karaoke-song-finder-0.0.1.jar:
+.. _korean-karaoke-song-finder-0.0.1.jar: https://github.com/sakurahjs/songfinder/blob/master/korean-karaoke-song-finder-0.0.1.jar
 
 Use
 ---
